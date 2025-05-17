@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:zego_cloud_live_streaming_app/data/config/env_config.dart';
 import 'package:zego_cloud_live_streaming_app/presentation/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  await EnvConfig().initialize();
   runApp(const MyApp());
 }
 
