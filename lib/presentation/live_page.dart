@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gap/gap.dart';
 import 'package:zego_cloud_live_streaming_app/data/config/env_config.dart';
 import 'package:zego_cloud_live_streaming_app/data/models/user.dart';
 import 'package:zego_uikit_prebuilt_live_streaming/zego_uikit_prebuilt_live_streaming.dart';
@@ -10,8 +9,8 @@ class LivePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final user = User.empty();
-    final user2 = User(userID: 'user2', userName: 'user2');
+    const user = User.empty();
+    const user2 = User(userID: 'user2', userName: 'user2');
     return SafeArea(
       child: ZegoUIKitPrebuiltLiveStreaming(
         appID: EnvConfig().zegoAppId, // use your appID
@@ -19,10 +18,9 @@ class LivePage extends StatelessWidget {
         userID: '',
         userName: '',
         liveID: 'testLiveID',
-        config:
-            isHost
-                ? ZegoUIKitPrebuiltLiveStreamingConfig.host()
-                : ZegoUIKitPrebuiltLiveStreamingConfig.audience(),
+        config: isHost
+            ? ZegoUIKitPrebuiltLiveStreamingConfig.host()
+            : ZegoUIKitPrebuiltLiveStreamingConfig.audience(),
       ),
     );
   }
