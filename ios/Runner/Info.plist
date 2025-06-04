@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We require camera access to connect</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>We require microphone access to connect</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Used for downloading images from chat messages.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Used for assigning profile images.</string>
 </dict>
 </plist>
