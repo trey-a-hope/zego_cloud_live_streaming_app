@@ -8,11 +8,7 @@ class LivePage extends StatelessWidget {
   final bool isHost;
   final String liveId;
 
-  const LivePage({
-    super.key,
-    required this.liveId,
-    required this.isHost,
-  });
+  const LivePage({super.key, required this.liveId, required this.isHost});
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +19,7 @@ class LivePage extends StatelessWidget {
         appID: EnvConfig().zegoAppId, // use your appID
         appSign: EnvConfig().zegoAppSign, // use your appSign
         userID: user.id,
-        userName: user.email!,
+        userName: user.username!,
         liveID: liveId,
         config: isHost
             ? ZegoUIKitPrebuiltLiveStreamingConfig.host()

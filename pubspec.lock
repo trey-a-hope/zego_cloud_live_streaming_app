@@ -45,74 +45,10 @@ packages:
     dependency: transitive
     description:
       name: async
-      sha256: d2872f9c19731c2e5f10444b14686eb7cc85c76274bd6c16e1816bff9a3bab63
+      sha256: "758e6d74e971c3e5aceb4110bfd6698efc7f501675bcfe0c775459a8140750eb"
       url: "https://pub.dev"
     source: hosted
-    version: "2.12.0"
-  audio_session:
-    dependency: transitive
-    description:
-      name: audio_session
-      sha256: "2b7fff16a552486d078bfc09a8cde19f426dc6d6329262b684182597bec5b1ac"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.25"
-  audioplayers:
-    dependency: transitive
-    description:
-      name: audioplayers
-      sha256: a5341380a4f1d3a10a4edde5bb75de5127fe31e0faa8c4d860e64d2f91ad84c7
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.4.0"
-  audioplayers_android:
-    dependency: transitive
-    description:
-      name: audioplayers_android
-      sha256: f8c90823a45b475d2c129f85bbda9c029c8d4450b172f62e066564c6e170f69a
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.2.0"
-  audioplayers_darwin:
-    dependency: transitive
-    description:
-      name: audioplayers_darwin
-      sha256: "405cdbd53ebdb4623f1c5af69f275dad4f930ce895512d5261c07cd95d23e778"
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.2.0"
-  audioplayers_linux:
-    dependency: transitive
-    description:
-      name: audioplayers_linux
-      sha256: "7e0d081a6a527c53aef9539691258a08ff69a7dc15ef6335fbea1b4b03ebbef0"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.2.0"
-  audioplayers_platform_interface:
-    dependency: transitive
-    description:
-      name: audioplayers_platform_interface
-      sha256: "77e5fa20fb4a64709158391c75c1cca69a481d35dc879b519e350a05ff520373"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.1.0"
-  audioplayers_web:
-    dependency: transitive
-    description:
-      name: audioplayers_web
-      sha256: bd99d8821114747682a2be0adcdb70233d4697af989b549d3a20a0f49f6c9b13
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.0"
-  audioplayers_windows:
-    dependency: transitive
-    description:
-      name: audioplayers_windows
-      sha256: "871d3831c25cd2408ddc552600fd4b32fba675943e319a41284704ee038ad563"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.2.0"
+    version: "2.13.0"
   bloc:
     dependency: transitive
     description:
@@ -233,14 +169,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.6"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: ba631d1c7f7bef6b729a622b7b752645a2d076dba9976925b8f25725a30e1ee6
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.8"
   dbus:
     dependency: transitive
     description:
@@ -298,7 +226,7 @@ packages:
     source: hosted
     version: "5.0.3"
   equatable:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: equatable
       sha256: "567c64b3cb4cf82397aac55f4f0cbd3ca20d77c6c03bedbc4ceaddc08904aef7"
@@ -309,10 +237,10 @@ packages:
     dependency: transitive
     description:
       name: fake_async
-      sha256: "6a95e56b2449df2273fd8c45a662d6947ce1ebb7aafe80e550a3f68297f3cacc"
+      sha256: "5368f224a74523e8d2e7399ea1638b37aecfca824a3cc4dfdf77bf1fa905ac44"
       url: "https://pub.dev"
     source: hosted
-    version: "1.3.2"
+    version: "1.3.3"
   ffi:
     dependency: transitive
     description:
@@ -406,14 +334,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.4.1"
-  flutter_callkit_incoming_yoer:
-    dependency: transitive
-    description:
-      name: flutter_callkit_incoming_yoer
-      sha256: c78b31049e4d7c94ad26619c115b2ded893733da34b3b6b0c5a987ec3dd69d54
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.4+3"
   flutter_dotenv:
     dependency: "direct main"
     description:
@@ -451,14 +371,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.28"
-  flutter_ringtone_player:
-    dependency: transitive
-    description:
-      name: flutter_ringtone_player
-      sha256: ae4a2caab2cfd14902f3ee5fe0307c454b396f0077fa34700238d6c4bd99cfec
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.0.0+4"
   flutter_styled_toast:
     dependency: transitive
     description:
@@ -480,14 +392,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_volume_controller:
-    dependency: transitive
-    description:
-      name: flutter_volume_controller
-      sha256: "15f2c25bc4632ac5e8d42a208fe07c3224a4ee66b155d1ac86945b3db2bb58d9"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.3"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -601,10 +505,10 @@ packages:
     dependency: transitive
     description:
       name: intl
-      sha256: d6f56758b7d3014a48af9701c085700aac781a92a87a62b1333b46d8879661cf
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
       url: "https://pub.dev"
     source: hosted
-    version: "0.19.0"
+    version: "0.20.2"
   js:
     dependency: transitive
     description:
@@ -621,38 +525,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.9.0"
-  just_audio:
-    dependency: transitive
-    description:
-      name: just_audio
-      sha256: f978d5b4ccea08f267dae0232ec5405c1b05d3f3cd63f82097ea46c015d5c09e
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.9.46"
-  just_audio_platform_interface:
-    dependency: transitive
-    description:
-      name: just_audio_platform_interface
-      sha256: "4cd94536af0219fa306205a58e78d67e02b0555283c1c094ee41e402a14a5c4a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.5.0"
-  just_audio_web:
-    dependency: transitive
-    description:
-      name: just_audio_web
-      sha256: "8c7e779892e180cbc9ffb5a3c52f6e90e1cbbf4a63694cc450972a7edbd2bb6d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.4.15"
   leak_tracker:
     dependency: transitive
     description:
       name: leak_tracker
-      sha256: c35baad643ba394b40aac41080300150a4f08fd0fd6a10378f8f7c6bc161acec
+      sha256: "6bb818ecbdffe216e81182c2f0714a2e62b593f4a4f13098713ff1685dfb6ab0"
       url: "https://pub.dev"
     source: hosted
-    version: "10.0.8"
+    version: "10.0.9"
   leak_tracker_flutter_testing:
     dependency: transitive
     description:
@@ -949,62 +829,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.28.0"
-  shared_preferences:
-    dependency: transitive
-    description:
-      name: shared_preferences
-      sha256: "6e8bf70b7fef813df4e9a36f658ac46d107db4b4cfe1048b477d4e453a8159f5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.5.3"
-  shared_preferences_android:
-    dependency: transitive
-    description:
-      name: shared_preferences_android
-      sha256: "20cbd561f743a342c76c151d6ddb93a9ce6005751e7aa458baad3858bfbfb6ac"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.10"
-  shared_preferences_foundation:
-    dependency: transitive
-    description:
-      name: shared_preferences_foundation
-      sha256: "6a52cfcdaeac77cad8c97b539ff688ccfc458c007b4db12be584fbe5c0e49e03"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.5.4"
-  shared_preferences_linux:
-    dependency: transitive
-    description:
-      name: shared_preferences_linux
-      sha256: "580abfd40f415611503cae30adf626e6656dfb2f0cee8f465ece7b6defb40f2f"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.1"
-  shared_preferences_platform_interface:
-    dependency: transitive
-    description:
-      name: shared_preferences_platform_interface
-      sha256: "57cbf196c486bc2cf1f02b85784932c6094376284b3ad5779d1b1c6c6a816b80"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.1"
-  shared_preferences_web:
-    dependency: transitive
-    description:
-      name: shared_preferences_web
-      sha256: c49bd060261c9a3f0ff445892695d6212ff603ef3115edbb448509d407600019
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.3"
-  shared_preferences_windows:
-    dependency: transitive
-    description:
-      name: shared_preferences_windows
-      sha256: "94ef0f72b2d71bc3e700e025db3710911bd51a71cefb65cc609dd0d9a982e3c1"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.4.1"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -1178,22 +1002,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
-  vibration:
-    dependency: transitive
-    description:
-      name: vibration
-      sha256: "804ee8f9628f31ee71fbe6137a2bc6206a64e101ec22cd9dd6d3a7dc0272591b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.3"
-  vibration_platform_interface:
-    dependency: transitive
-    description:
-      name: vibration_platform_interface
-      sha256: "03e9deaa4df48a1a6212e281bfee5f610d62e9247929dd2f26f4efd4fa5e225c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.0"
   visibility_detector:
     dependency: transitive
     description:
@@ -1206,10 +1014,10 @@ packages:
     dependency: transitive
     description:
       name: vm_service
-      sha256: "0968250880a6c5fe7edc067ed0a13d4bae1577fe2771dcf3010d52c4a9d3ca14"
+      sha256: ddfa8d30d89985b96407efce8acbdd124701f96741f2d981ca860662f1c0dc02
       url: "https://pub.dev"
     source: hosted
-    version: "14.3.1"
+    version: "15.0.0"
   wakelock_plus:
     dependency: transitive
     description:
@@ -1330,14 +1138,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.28.14"
-  zego_uikit_prebuilt_call:
-    dependency: "direct main"
-    description:
-      name: zego_uikit_prebuilt_call
-      sha256: bd325bb2671f215972c45483beba1ea60d4838ed9df10ab0cbc9056119ecb3fb
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.16.28"
   zego_uikit_prebuilt_live_streaming:
     dependency: "direct main"
     description:
@@ -1346,22 +1146,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.13.15"
-  zego_uikit_signaling_plugin:
-    dependency: transitive
-    description:
-      name: zego_uikit_signaling_plugin
-      sha256: "31a903d3bf1c22ea9281d6979c35446a3cc3ae54964855008b6395f0acc6c422"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.8.12"
-  zego_zim:
-    dependency: transitive
-    description:
-      name: zego_zim
-      sha256: "7149128e7666e568ba9f1d1dfd154f404e889995962c46f35c11a26562dde397"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.20.0+1"
   zego_zpns:
     dependency: transitive
     description:

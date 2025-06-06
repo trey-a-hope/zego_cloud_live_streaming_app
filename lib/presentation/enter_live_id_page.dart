@@ -1,4 +1,3 @@
-import 'package:clerk_flutter/clerk_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:zego_cloud_live_streaming_app/presentation/live_page.dart';

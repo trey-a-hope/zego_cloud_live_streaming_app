@@ -15,15 +15,13 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
-        actions: const [
-          ClerkSignOutPanel(),
-        ],
+        actions: const [ClerkSignOutPanel()],
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Welcome, ${user.email}'),
+            Text('Welcome, ${user.username}'),
             const Gap(32),
             ElevatedButton(
               child: const Text('Start a live'),
@@ -43,9 +41,7 @@ class HomePage extends StatelessWidget {
   _jumpToEnterLiveIdPage(BuildContext context, {required bool isHost}) {
     Navigator.push(
       context,
-      MaterialPageRoute(
-        builder: (context) => EnterLiveIdPage(isHost: isHost),
-      ),
+      MaterialPageRoute(builder: (context) => EnterLiveIdPage(isHost: isHost)),
     );
   }
 }

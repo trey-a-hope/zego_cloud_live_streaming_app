@@ -13,15 +13,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  cupertino_icons: ^1.0.2
-  zego_uikit_prebuilt_call: ^4.16.27
   flutter_dotenv: ^5.2.1
   clerk_flutter: ^0.0.8-beta
   gap: ^3.0.1
   zego_uikit_prebuilt_live_streaming: ^3.3.2
   flutter_bloc: ^8.1.4
-  equatable: ^2.0.5
 
 dev_dependencies:
   flutter_test:
